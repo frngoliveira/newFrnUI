@@ -7,10 +7,10 @@ import cadastro from './assets/cadastro.jpg';
 
 
 function App() {
+  //process.env.REACT_APP_API;
   const baseURL = "https://localhost:44317/api/";
 
-  const [updateData, setUpdateData] = useState(true)
-  //process.env.REACT_APP_API;
+  const [updateData, setUpdateData] = useState(true)  
   const [data, setData]=useState([]);
   const [modalInclude, setModalInclude]=useState(false);
   const [modalEdit, setModalEdit]=useState(false);
